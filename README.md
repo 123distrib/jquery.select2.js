@@ -1,6 +1,6 @@
+## How to use
 
-How to use
-
+```
 <select>
   <option value="1">My first value</option>
   <option value="2">My second value</option>
@@ -11,4 +11,9 @@ How to use
   <option value="7">...</option>
 </select>
 
-$('select').select2();
+<script>
+$(document).ready(function(e) {
+  $('select').select2();
+});
+</script>
+```
