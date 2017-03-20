@@ -1,17 +1,4 @@
 $(document).ready(function(e) {
-
-	/*
-	$(this).on('click','.btn-filter',function() {
-		$('.form-filters').css('display','block');
-		$('.form-filters input:eq(0)').focus();
-		return false;
-	});
-	
-	$(this).on('click','.form-filters input',function() {
-		return false;
-	});
-	*/
-	
 	$(this).on('mousedown',function() {
 		$('.subselect').css('display','none');
 		$('.form-filters').css('display','none');
